@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 
+
 const Pro_det = ({ product }: { product: { title: string; description: string; image: string; price: number; id: number; tag:string; availability:string } }) => {
   const [startDate, setStartDate] = useState<Date | null>(null);
   const [endDate, setEndDate] = useState<Date | null>(null);

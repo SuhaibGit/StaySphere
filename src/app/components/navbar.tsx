@@ -1,7 +1,6 @@
 "use client";
 import Link from 'next/link';
 import React, { useState, useEffect } from 'react'; // Added useEffect
-import { Inter } from "next/font/google";
 import { TbWorld } from "react-icons/tb";
 import { BiMessageDetail } from "react-icons/bi";
 import { IoMenu } from "react-icons/io5";
