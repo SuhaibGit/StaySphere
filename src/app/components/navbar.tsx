@@ -7,7 +7,6 @@ import { BiMessageDetail } from "react-icons/bi";
 import { IoMenu } from "react-icons/io5";
 import Sidebar from "./sidebar";
 
-const inter = Inter({ subsets: ['latin'] });
 
 const Navbar1 = () => {
     const [showNav, setShowNav] = useState(false);

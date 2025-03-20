@@ -1,6 +1,5 @@
 import React from 'react';
 import Link from 'next/link';
-import { RiArrowDropDownLine } from "react-icons/ri";
 
 const Sidebar = ({ show, onClose }: { show: boolean, onClose: () => void }) => {
   return (
